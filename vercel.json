@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "outputDirectory": ".",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Cache-Control", "value": "no-store" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+.env
+configlogs.txt
+logs.txt
+PublishLogs.txt
+*.py
